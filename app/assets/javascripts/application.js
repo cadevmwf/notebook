@@ -13,3 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+// $("li").on("load", function(e) {
+//   e.
+// });
+
