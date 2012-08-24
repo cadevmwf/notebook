@@ -1,2 +1,4 @@
 $("#new_note_li").before("<%= escape_javascript(render('note', :zebra => @note)) %>");
+$("#note_<%= @note.id %>").css("display", "none");
+$("#note_<%= @note.id %>").slideToggle();
 $("#note_description").val("");
