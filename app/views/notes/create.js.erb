@@ -1,2 +1,2 @@
-$("#new_note_li").before("<li><%= @note.description %></li>");
+$("#new_note_li").before("<%= escape_javascript(render('note', :zebra => @note)) %>");
 $("#note_description").val("");
